@@ -1,0 +1,147 @@
+body{
+    background:  #161238 ;
+}
+
+nav {
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    height: 40px;    
+    font-family: cursive;
+    padding: 20px 5px 5px;
+    background:linear-gradient(50deg, #7387c3 , rgba(255,0,0,0) 70.71%);
+    text-align: center;
+    border: dotted solid black;
+}
+
+nav a {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    color :#28398d;
+    height: inherit;
+    border-bottom: thin dotted black;
+    transition: 300ms;
+   
+}
+
+
+h1{
+    font-family: cursive;
+    text-align: center;
+    color : #c6d3fa;
+    transition: 300ms;
+    
+}
+
+
+aside {
+    margin: 25px;
+    float: left;
+    width: 17%;
+    color :#c6d3fa;
+    
+}
+
+blockquote{
+    padding: 2%;
+    font-family: cursive;
+    margin-left: 2%;
+    width: 95%;
+    text-align: right;
+    padding-bottom: 5%;
+
+}
+
+
+table a:visited{
+
+    color :#161238;
+}
+
+table a{
+
+    color :#28398d;
+}
+
+aside .side{
+    margin-bottom: 15px;
+    text-align: left;
+    font-family: cursive;
+    margin-right: 10px;
+    border: medium double #e4d6f8  ;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 300ms;
+}
+
+
+
+input{
+    background:    #c6d3fa; ;
+}
+
+
+a:visited {
+    
+    color: #c6d3fa ;
+}
+
+a{
+
+    color:#7387c3;
+
+}
+ a:hover{
+     
+   color: #3fa4d3;
+
+}
+
+
+table , th , td{
+    
+    border-collapse: collapse; 
+    border: 3px  inset #161238; 
+    
+    
+
+}
+
+th{
+    color :#161238;
+}
+
+
+div  {
+    
+    padding: 20px;
+    border-radius: 5px;
+    font-family: cursive;
+    margin-top: 0;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    background: #c6d3fa;
+    border: medium  #0b064d ;
+    overflow: auto;
+
+}
+
+#bottom{
+    height: 100px;
+    width: 100px;
+    float: right;
+   
+   
+}
+
+
+/*Футер*/
+footer {
+    text-align: center;
+    font-family: cursive;
+    color:#c6d3fa;
+    flex: 0 0 auto;
+    margin-top: 140px;
+}
