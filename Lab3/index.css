@@ -1,0 +1,524 @@
+
+body{
+    background:  #161238 ;
+}
+
+*{
+    box-sizing: border-box;
+}
+nav {
+
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    height: 60px;    
+    font-family: cursive;
+    padding: 20px 5px 5px 0px;
+    background:linear-gradient(50deg, #7387c3 , rgba(255,0,0,0) 70.71%);
+    text-align: center;
+    border: dotted solid black;
+}
+
+nav a {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    color :#28398d;
+    height: inherit;
+    border-bottom: thin dotted black;
+ 
+    transition: 300ms;
+   
+}
+
+
+ div img {
+  opacity: 0.45;  
+  cursor: pointer;
+  transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+} 
+
+div img:hover {
+   
+  opacity: 1; 
+  transform: scale(1.15);
+ -webkit-transform: scale(1.15);
+ -moz-transform: scale(1.15);
+ -o-transform: scale(1.15);
+}
+.advertising  {
+    float: left;
+    height: 100%; 
+    width: 10%; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    overflow-x: hidden;
+    background-color:#161238 ;
+    padding-top: 20px;
+   
+}
+
+.advertising img{
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    object-fit: cover;
+    position	: relative;
+    opacity: 0;
+   
+}
+.advertising img:hover{
+  filter: brightness(100%);
+  z-index:2;
+  opacity: 100;
+}
+@media screen and (max-width: 769px) {
+  .thumb-wrap {
+    position: relative;
+    padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+    height: 0;
+    overflow: hidden;
+  }
+  .thumb-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-width: 0;
+    outline-width: 0;
+  }
+  div img{
+    height: auto;
+    width:20%;
+  }
+  
+}
+h5{
+  position: absolute;
+ color:#c6d3fa ;
+ margin-left: 18%;
+ margin-top: 40%;
+z-index:1;
+}
+h5:hover{
+  opacity: 0;
+  z-index:-1;
+}
+.social-text{
+  margin-right: 10px;
+}
+td{
+  padding-left: 2%;
+}
+.flex-container img{
+  height: 10%;
+  width: 10%;
+  margin: 0.5vw;
+}
+.flex-container {
+  display: -webkit-flex; 
+display: flex; 
+  flex-direction: row;
+}
+
+.flex-container2 img{
+  height: 10%;
+  width: 10%;
+}
+.flex-container2 {
+  display: -webkit-flex; 
+display: flex; 
+  flex-direction:column ;
+}
+.advertising h4{
+    font-family: cursive;
+    text-align: center;
+    color :  #c6d3fa ;
+    transition: 300ms;
+
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  
+
+}
+
+
+.main {
+    float: right;
+    width: 90%; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+.banner{
+    position: relative;
+    height:auto;
+    width: 1600px;
+    max-width: 100%;
+  
+   
+}
+.logo{
+    position: absolute;
+    width: 10%;
+    max-width: 100%;
+    height: auto;
+    float: left;
+    top:1%;
+    left:12%;
+    
+}
+
+
+
+h1{
+    font-family: cursive;
+    text-align: center;
+    color :  #c6d3fa ;
+    transition: 300ms;
+    position: absolute;
+	left		: 0;
+    width		: 100%;
+    text-align: center;
+    
+   
+    
+}
+
+/* 
+aside {
+    margin: 25px;
+    float: left;
+    width: 17%;
+    color :#c6d3fa;
+    
+} */
+
+blockquote{
+    padding: 2%;
+    font-family: cursive;
+    margin-left: 2%;
+    width: 95%;
+    text-align: right;
+    padding-bottom: 5%;
+
+}
+
+
+table a:visited{
+
+    color :#161238;
+}
+
+table a{
+
+    color :#28398d;
+}
+
+.registr{
+
+
+    width: 87%;
+    color :#c6d3fa;
+    margin-bottom: 15px;
+    text-align: left;
+    font-family: cursive;
+    margin-right: 10px;
+   float: right;
+    border: medium double #e4d6f8  ;
+    border-radius: 20px;
+     padding: 10px; 
+    transition: 300ms;
+}
+
+
+
+input{
+    background:    #c6d3fa; ;
+}
+
+
+a:visited {
+    
+    color: #c6d3fa ;
+}
+
+a{
+
+    color:#7387c3;
+
+}
+ a:hover{
+     
+   color: #3fa4d3;
+
+}
+
+
+table , th , td{
+    
+    border-collapse: collapse; 
+    border: 3px  inset #161238; 
+    
+    
+
+}
+
+th{
+    color :#161238;
+}
+
+
+div  {
+    
+    padding: 20px;
+    border-radius: 5px;
+    font-family: cursive;
+    margin-top: 0;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    background: #c6d3fa;
+    border: medium  #0b064d ;
+    overflow: auto;
+
+}
+
+#bottom{
+   
+    height: auto;
+    width: 100px;
+    max-width: 10%;
+    float: right;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  
+}
+ /* .register img {
+    margin-left: 100px;
+    width: 70px;
+    height: auto;
+   
+
+}   */
+/* figcaption{
+    margin-left: 160px; /* Same as the width of the sidebar 
+    padding: 0px 10px;
+    font-family: cursive;
+    color :  #161238 ;
+    transition: 300ms;
+} */
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    div {
+      font-size: 17px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    div, .registr   {
+      font-size: 10px;
+    }
+  }
+
+  @media screen and (min-width: 601px) {
+    footer {
+      font-size: 15px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    footer   {
+      font-size: 7px;
+    }
+  }
+  @media screen and (min-width: 601px) {
+     h4 {
+      font-size: 13px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+     h4, h5   {
+      font-size: 4px;
+      hyphens: auto;
+      word-break: break-all;
+    }
+  }
+  
+  @media screen and (min-width: 601px) {
+    h1{
+      font-size: 40px;
+      top: 50px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 769px) {
+    h1 , nav a, nav  {
+      font-size: 13px;
+      top: 25px;
+      height: 40px;
+    }
+  }
+  /* скрываем чекбокс */
+#menutoggle {
+    opacity: 0;
+  }
+
+/* стилизуем кнопку */
+.menubtn {
+    display: flex; /* используем flex для центрирования содержимого */
+    align-items: center;  /* центрируем содержимое кнопки */
+     position: absolute; 
+    top: 22px;
+    left: 212px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+
+  }
+
+  /* добавляем "гамбургер" */
+.menubtn > span,
+.menubtn > span::before,
+.menubtn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+}
+.menubtn > span::before {
+  content: '';
+  top: -8px;
+}
+.menubtn > span::after {
+  content: '';
+  top: 8px;
+
+}
+
+/* контейнер меню */
+.menubox {
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 200px;
+    height: 100%;
+    margin-left: 10%;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #161238;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  }
+  /* элементы меню */
+  .menuitem {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: cursive;
+    text-decoration: none;
+  }
+  .menuitem:hover {
+    background-color: #cfd8dc55;
+  }
+  #menutoggle:checked ~ .menubtn > span {
+    transform: rotate(45deg);
+  }
+  #menutoggle:checked ~ .menubtn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menutoggle:checked ~ .menubtn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menutoggle:checked ~ .menubox {
+    visibility: visible;
+    left: 0;
+
+  }
+
+  .menubtn > span,
+.menubtn > span::before,
+.menubtn > span::after {
+  transition-duration: .25s;
+  
+
+}
+.menubox {
+  transition-duration: .25s;
+}
+.menuitem {
+  transition-duration: .25s;
+}
+.hamburger-menu{
+    background-color: #161238;
+    font-size: 17px;
+    font-family: cursive;
+}
+@media screen and (max-width: 600px) {
+    .hamburger-menu, .menubox   {
+      font-size: 7px;
+     
+      width: 70px;
+    }
+  }
+ 
+
+  
+  .networks{
+   height: 2%;
+   width: 3%;
+   font-size: 20px;
+    border-radius: 50%;
+   margin-left: 200px;
+    background-color: #161238;
+    display: table-row;
+    
+  }
+ 
+  .fa{
+    font-size: 25px;
+    letter-spacing: 17px;
+    
+  }
+
+/*Футер*/
+footer {
+    text-align: center;
+    font-family: cursive;
+    color:#c6d3fa;
+    flex: 0 0 auto;
+    width: 90%;
+    margin-top: 10px;
+    float: right;
+    display: table;
+}
